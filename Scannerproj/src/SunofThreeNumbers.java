@@ -21,5 +21,5 @@ public class SunofThreeNumbers {
  * note:
  * int values ->nextInt();
  * double values->nextDouble();
- * String vlues -> nextLine();
+ * String values -> nextLine();
  */
