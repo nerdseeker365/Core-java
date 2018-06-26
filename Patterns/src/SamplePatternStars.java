@@ -33,6 +33,8 @@ public class SamplePatternStars {
 	 	    System.out.print("Enter n value: ");
 	 	   n=sc.nextInt();
 	        printStars(n);
+	        //close the resources
+	        sc.close();
 	    }
 	}
 
