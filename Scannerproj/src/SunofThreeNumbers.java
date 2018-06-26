@@ -13,7 +13,8 @@ public class SunofThreeNumbers {
 		t=a+b;
 		System.out.println("addition of two numbers: "+t);
 		
-		
+		//close the resources
+		s2.close();
 	}
 
 }
