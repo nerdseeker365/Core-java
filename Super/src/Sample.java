@@ -15,8 +15,8 @@ public  class Sample extends Example{
 	
 	
 	public static void main(String[] args) {
-		Sample s=new Sample();
-		Sample s1=new Sample(10);
+		//Sample s=new Sample();
+		//Sample s1=new Sample(10);
 		 
 	}
 

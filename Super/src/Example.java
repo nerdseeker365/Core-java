@@ -1,6 +1,6 @@
 
 public  class Example {
-      static int  b;
+       int  b;
 	public  Example() {
 		//super();compiler automatically places the zero parameter constructor
 		System.out.println("Example zero-parameter");
