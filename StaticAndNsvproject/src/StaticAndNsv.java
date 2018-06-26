@@ -12,17 +12,17 @@ public class StaticAndNsv {
 	int c=30;
 	int d=40;
 	public static void main(String[] args) {
-		StaticAndNsv s=null;
-		StaticAndNsv s2=null;
-		s=new StaticAndNsv();
+		//StaticAndNsv s=null;
+		//StaticAndNsv s2=null;
+		//s=new StaticAndNsv();
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(StaticAndNsv.a);
 		System.out.println(StaticAndNsv.b);
-		System.out.println(s.a);
-		System.out.println(s.b);
-		System.out.println(s2.a);
-		System.out.println(s2.b);
+		System.out.println(StaticAndNsv.a);
+		System.out.println(StaticAndNsv.b);
+		System.out.println(StaticAndNsv.a);
+		System.out.println(StaticAndNsv.b);
 		
 		
 	}
