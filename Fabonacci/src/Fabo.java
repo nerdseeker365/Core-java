@@ -29,5 +29,7 @@ static int fib(int n)
 	    n=sc.nextInt();
 		
 		System.out.println(fib(n));
+		//close the resources
+		sc.close();
 	}
 }
