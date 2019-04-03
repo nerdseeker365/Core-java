@@ -1,3 +1,5 @@
+package sa.nt.log;
+
 import java.util.Scanner;
 public class SumofTwoNumbers {
 	public static void main(String[] args) {
