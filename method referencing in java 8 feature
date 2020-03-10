@@ -1,0 +1,19 @@
+//method Referencing(4)-> static method referencing java 8 feature.
+interface Info{
+public void show(String s);
+}
+class Data
+{
+	public static void print(String r){
+	System.out.println("Data::   "+r);
+	}
+}
+
+public class Test 
+{
+	public static void main(String[] args) 
+	{
+		Info o=Data::print;
+		o.show("NIT....>>>>>>>>>>");
+	}
+}
