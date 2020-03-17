@@ -1,0 +1,17 @@
+//enums are introduced in java 1.5 version 
+//enums are constant 
+public enum Result{
+PASS,FAIL,ABSENT;
+}
+-----------------------------------------------------------------------------------------------------------------------------
+class Test1 
+{
+	public static void main(String[] args) 
+	{
+		Result[] r=Result.values();
+		for(Result r1:r){
+		System.out.println(r1+"-"+r1.ordinal());
+		}
+	}
+}
+--------------------------------------------------------------------------------------------------------------------------
